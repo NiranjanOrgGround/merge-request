@@ -7,7 +7,7 @@ on:
 
 jobs:
   check-status:
-    runs-on: ubuntu-latest
+    runs-on: arc-runner-set
     steps:
       - name: Approve Pull Request
         uses: juliangruber/approve-pull-request-action@v2
